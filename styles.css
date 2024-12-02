@@ -1,0 +1,85 @@
+/* Estilos Generales */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Sección Principal */
+#inicio {
+    background-image: url('imagenes/fondoinicio.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#inicio h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#inicio .btn {
+    font-size: 1.2em;
+}
+
+/* Sección Propósito */
+#proposito {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+#proposito h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#proposito p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+}
+
+/* Sección Vestimentas */
+#vestimentas {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+#vestimentas h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#vestimentas .row {
+    margin-bottom: 40px;
+}
+
+#vestimentas img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#vestimentas h3 {
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#vestimentas p {
+    font-size: 1em;
+    text-align: center;
+    color: #666;
+}
